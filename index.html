@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071a3d"><meta name="description" content="ประกาศรายชื่อนักกีฬาสี BLUE TEAM โรงเรียนวัดราชบพิธ">
+  <title>BLUE TEAM | โรงเรียนวัดราชบพิธ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header"><a class="brand" href="#top"><span class="brand-mark">B</span><span><b>BLUE TEAM</b><small>WAT RATCHABOPHIT</small></span></a>
+    <nav class="desktop-nav"><a href="#sports">รายการกีฬา</a><a href="#about">ติดต่อ</a><a class="nav-admin" href="admin.html">สำหรับผู้ดูแล <span>↗</span></a></nav>
+    <a class="mobile-admin" href="admin.html" aria-label="เข้าสู่ระบบผู้ดูแล"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></svg></a>
+  </header>
+  <main id="top">
+    <section class="hero wrap"><div class="hero-copy"><div class="eyebrow"><i></i> THE BLUE SPIRIT · SPORTS DAY</div>
+      <h1>ประกาศ<br><span>รายชื่อนักกีฬาสีน้ำเงิน</span></h1>
+      <p>ติดตามรายชื่อนักกีฬา และช่องทางติดต่อของทีมสีน้ำเงิน โรงเรียนวัดราชบพิธ</p>
+      <a class="primary-btn" href="#sports">สำรวจรายการกีฬา <span>↓</span></a>
+      <div class="hero-meta"><div><b>BLUE</b><small>TEAM COLOR</small></div><div class="meta-line"></div><div><b>R.B.</b><small>WAT RATCHABOPHIT</small></div></div>
+    </div><div class="hero-art" aria-label="กราฟิกทีมสีน้ำเงิน"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="hero-ball">B</div><div class="hero-stamp">PLAY<br>WITH<br>PRIDE</div><div class="hero-caption">ONE TEAM<br><b>ONE DREAM</b></div></div>
+    </section>
+    <section class="quick-stats wrap"><div class="stat"><span class="stat-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 21h8m-4-4v4M7 4h10v6a5 5 0 0 1-10 0V4ZM7 6H4v2a4 4 0 0 0 4 4m9-6h3v2a4 4 0 0 1-4 4"/></svg></span><div><b id="sport-count">16</b><small>ประเภทกีฬา</small></div></div><div class="stat"><span class="stat-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M17 5a3 3 0 0 1 0 6m2 9v-2a6 6 0 0 0-3-5"/></svg></span><div><b id="athlete-count">0</b><small>นักกีฬาที่ประกาศ</small></div></div><div class="stat"><span class="stat-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m12 2 8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4Z"/><path d="m9 12 2 2 4-4"/></svg></span><div><b>BLUE</b><small>สีประจำทีม</small></div></div></section>
+    <section class="sports-section wrap" id="sports"><div class="section-heading"><div><div class="eyebrow">FIND YOUR GAME</div><h2>รายการ<span>กีฬา</span></h2><p>เลือกประเภทกีฬาเพื่อดูรายชื่อนักกีฬาและรายละเอียดการแข่งขัน</p></div><div class="section-count"><b id="visible-count">16</b><small>SPORTS</small></div></div>
+      <div class="toolbar"><label class="search-box"><span>⌕</span><input id="sport-search" type="search" placeholder="ค้นหาประเภทกีฬา..."></label><div class="filter-chips" id="category-filters"><button class="chip active" data-category="all">ทั้งหมด</button><button class="chip" data-category="team">กีฬาทีม</button><button class="chip" data-category="individual">กีฬาบุคคล</button><button class="chip" data-category="athletics">กรีฑา</button><button class="chip" data-category="aquatics">ว่ายน้ำ</button></div></div>
+      <div class="sports-grid" id="sports-grid"><div class="loading-card">กำลังโหลดรายการกีฬา...</div></div>
+    </section>
+    
+<section class="about-section" id="about">
+  <div class="wrap contact-section">
+
+    <div class="contact-header">
+      <div class="eyebrow">BLUE TEAM · CONTACT</div>
+      <h2>ติดต่อ<span>ประธานสี</span></h2>
+      <p>
+        หากมีข้อสงสัยเกี่ยวกับรายชื่อนักกีฬา
+        หรือรายละเอียดการแข่งขัน สามารถติดต่อประธานสีได้
+      </p>
+    </div>
+
+    <div class="contact-card">
+
+      <div class="contact-profile">
+        <div class="contact-avatar">
+          <i class="fa-solid fa-user-tie"></i>
+        </div>
+
+        <div class="contact-profile-info">
+          <span class="contact-role">BLUE TEAM PRESIDENT</span>
+          <h3>ฟลุ๊ค</h3>
+          <p>ประธานสีน้ำเงิน · โรงเรียนวัดราชบพิธ</p>
+        </div>
+      </div>
+
+      <div class="contact-links">
+
+        <a href="tel:0834538574" class="contact-link">
+          <div class="contact-link-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="contact-link-info">
+            <small>PHONE NUMBER</small>
+            <strong>083-453-8574</strong>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+
+        <a href="https://www.instagram.com/17_.suwxnvm/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="contact-link">
+          <div class="contact-link-icon instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="contact-link-info">
+            <small>INSTAGRAM</small>
+            <strong>@17_.suwxnvm</strong>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="#top"><span class="brand-mark">B</span><span><b>BLUE TEAM</b><small>WAT RATCHABOPHIT</small></span></a><small>© <span id="year"></span> BLUE TEAM · โรงเรียนวัดราชบพิธ</small></footer>
+  <div class="modal-backdrop" id="sport-modal" aria-hidden="true"><section class="sport-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" id="modal-close" aria-label="ปิด">×</button><div class="modal-top"><div class="sport-icon large" id="modal-icon"></div><div><div class="eyebrow">SPORT DETAILS</div><h2 id="modal-title">ฟุตบอล</h2><p id="modal-note"></p></div></div><div class="modal-controls"><label class="search-box"><span>⌕</span><input id="athlete-search" type="search" placeholder="ค้นหาชื่อนักกีฬา..."></label><select id="grade-filter" aria-label="กรองระดับชั้น"><option value="all">ทุกระดับที่แข่งขันได้</option></select></div><div id="athlete-groups" class="athlete-groups"></div><div class="modal-footer"><span id="line-label">เข้าร่วมกลุ่มกีฬา</span><a id="line-link" class="line-btn" href="#" target="_blank" rel="noopener">เข้ากลุ่ม LINE <span>↗</span></a></div></section></div>
+  <div class="toast" id="toast" role="status"></div>
+  <script type="module" src="js/app.js"></script>
+</body></html>
